@@ -17,7 +17,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-const images = ['./banner.png' , './banner1.png']   // list of banners
+const images = ['./banner.png']   // list of banners , './banner1.png'
 const bannerImage = ref(images[0])
 let index = 0
 let intervalId = null
