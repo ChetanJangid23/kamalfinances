@@ -20,7 +20,7 @@
         <q-btn flat label="Home" to="/" :class="{ 'active-link': isActive('/') }" style="text-transform: capitalize;" />
         <q-btn flat label="Services" to="/services" :class="{ 'active-link': isActive('/services') }" style="text-transform: capitalize;" />
         <q-btn flat label="Career" to="/career" :class="{ 'active-link': isActive('/career') }" style="text-transform: capitalize;" />
-        <q-btn flat label="Contact" to="/contact" :class="{ 'active-link': isActive('/contact') }" style="text-transform: capitalize;" />
+        <q-btn flat label="Contact Us" to="/contact" :class="{ 'active-link': isActive('/contact') }" style="text-transform: capitalize;" />
         <q-btn flat label="About Us" to="/about" :class="{ 'active-link': isActive('/about') }" style="text-transform: capitalize;" />
       </div>
 
@@ -48,7 +48,7 @@
           <q-item-section style="text-transform: capitalize;">Career</q-item-section>
         </q-item>
         <q-item clickable v-ripple to="/contact" :class="{ 'active-link': isActive('/contact') }">
-          <q-item-section style="text-transform: capitalize;">Contact</q-item-section>
+          <q-item-section style="text-transform: capitalize;">Contact Us</q-item-section>
         </q-item>
         <q-item clickable v-ripple to="/about" :class="{ 'active-link': isActive('/about') }">
           <q-item-section style="text-transform: capitalize;">About Us</q-item-section>
