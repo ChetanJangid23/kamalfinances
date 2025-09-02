@@ -5,7 +5,7 @@
       <!-- Logo -->
       <q-btn flat no-caps no-wrap to="/" class="q-ml-sm flex items-center">
         <img
-          src="public/logoKFS.png"
+          src="./logoKFS.png"
           alt="Kamal Finance Logo"
           class="q-mr-sm"
           style="height: 70px; width: auto;"
