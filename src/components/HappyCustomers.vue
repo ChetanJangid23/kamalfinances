@@ -169,7 +169,7 @@ onUnmounted(() => {
   object-fit: cover;
   display: none;
   max-height: 650px;
-  border-radius: 12px;
+  border-radius: 4px;
 }
 .carousel img.active {
   display: block;

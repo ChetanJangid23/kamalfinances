@@ -9,7 +9,7 @@
           src="/LogoKFS.png"
           alt="Kamal Finance Logo"
           class="q-mr-sm gt-sm"
-          style="height: 70px; width: auto;"
+          style="height: 70px; width: auto; border-radius: 4px;"
         />
         <span class="text-h5 text-primary gt-sm" style="font-weight: 500;">
           Kamal Finance Services
