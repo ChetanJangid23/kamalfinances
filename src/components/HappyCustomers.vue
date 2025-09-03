@@ -38,15 +38,15 @@
         <div class="row text-center q-my-lg counts-row">
           <div class="col">
             <h3 class="text-h5 text-primary" style="margin-bottom: 0;">1500+</h3>
-            <p class="text-subtitle2">Happy Clients</p>
+            <p class="text-subtitle2" style="font-weight: bold;">Happy Clients</p>
           </div>
           <div class="col">
             <h3 class="text-h5 text-primary" style="margin-bottom: 0;">900+</h3>
-            <p class="text-subtitle2">Loans Done</p>
+            <p class="text-subtitle2" style="font-weight: bold;">Loans Done</p>
           </div>
           <div class="col">
             <h3 class="text-h5 text-primary" style="margin-bottom: 0;">5+</h3>
-            <p class="text-subtitle2">Years of Experience</p>
+            <p class="text-subtitle2" style="font-weight: bold;">Years of Experience</p>
           </div>
         </div>
         <div class="text-right">
