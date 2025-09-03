@@ -4,13 +4,27 @@
     <q-toolbar>
       <!-- Logo -->
       <q-btn flat no-caps no-wrap to="/" class="q-ml-sm flex items-center">
+        <!-- Desktop Logo -->
         <img
           src="/LogoKFS.png"
           alt="Kamal Finance Logo"
-          class="q-mr-sm"
+          class="q-mr-sm gt-sm"
           style="height: 70px; width: auto;"
         />
-        <span class="text-h5 text-primary" style="font-weight: 500;">Kamal Finance Services</span>
+        <span class="text-h5 text-primary gt-sm" style="font-weight: 500;">
+          Kamal Finance Services
+        </span>
+
+        <!-- Mobile Logo -->
+        <img
+          src="/LogoKFS.png"
+          alt="Kamal Finance Logo"
+          class="q-mr-sm lt-md"
+          style="height: 45px; width: auto;"
+        />
+        <span class="text-subtitle1 text-primary lt-md" style="font-weight: 500;">
+          Kamal Finance Services
+        </span>
       </q-btn>
 
       <q-space />
@@ -37,6 +51,12 @@
 
     <!-- Mobile Drawer -->
     <q-drawer v-model="drawer" side="right" overlay class="lt-md">
+      <!-- Drawer Header with Close Button -->
+      <q-toolbar>
+        <q-space />
+        <q-btn flat dense round icon="close" class="text-primary" @click="drawer = false" />
+      </q-toolbar>
+
       <q-list>
         <q-item clickable v-ripple to="/" :class="{ 'active-link': isActive('/') }">
           <q-item-section style="text-transform: capitalize;">Home</q-item-section>
