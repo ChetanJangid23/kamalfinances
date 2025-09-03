@@ -3,7 +3,7 @@
   <q-header elevated class="bg-white text-primary">
     <q-toolbar>
       <!-- Logo -->
-      <q-btn flat no-caps no-wrap to="/" class="q-ml-sm flex items-center">
+      <q-btn flat no-caps no-wrap to="/" class="q-ml-sm flex items-center" style="padding-left: 0; margin-left: 0;">
         <!-- Desktop Logo -->
         <img
           src="/LogoKFS.png"
@@ -20,7 +20,7 @@
           src="/LogoKFS.png"
           alt="Kamal Finance Logo"
           class="q-mr-sm lt-md"
-          style="height: 45px; width: auto;"
+          style="height: 55px; width: auto;"
         />
         <span class="text-subtitle1 text-primary lt-md" style="font-weight: 500;">
           Kamal Finance Services
