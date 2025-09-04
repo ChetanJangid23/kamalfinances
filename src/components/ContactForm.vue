@@ -94,7 +94,14 @@
             required
           />
           <q-input style="padding-bottom: 16px;" v-model="form.message" label="Message" outlined type="textarea" autogrow required />
-
+          <q-card-section class="q-pt-none">
+  <div class="text-center text-caption q-mt-sm">
+    By submitting this form, you agree that we may use your information to respond to your inquiries,
+    provide customer service support, send you important information about the services, and send you
+    marketing communications (with your consent) via different channels, including but not limited to
+    SMS, Email, WhatsApp, and Voice.
+  </div>
+</q-card-section>
           <q-btn type="submit" label="Send" color="primary" class="full-width" :loading="loading" />
         </q-form>
 

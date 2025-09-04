@@ -1,7 +1,7 @@
 <template>
   <!-- Header/Navbar -->
   <q-header elevated class="bg-white text-primary">
-    <q-toolbar>
+    <q-toolbar style="">
       <!-- Logo -->
       <q-btn flat no-caps no-wrap to="/" class="q-ml-sm flex items-center" style="padding-left: 0; margin-left: 0;">
         <!-- Desktop Logo -->

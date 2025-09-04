@@ -44,7 +44,14 @@
           <q-input v-model="form.address" label="Address" outlined required style="padding-bottom: 16px;" />
           <q-input v-model="form.location" label="Location Interested For" outlined required style="padding-bottom: 16px;" />
           <q-input v-model="form.message" label="Message" type="textarea" outlined autogrow style="padding-bottom: 16px;" />
-
+          <q-card-section class="q-pt-none">
+  <div class="text-center text-caption q-mt-sm">
+    By submitting this form, you agree that we may use your information to respond to your inquiries,
+    provide customer service support, send you important information about the services, and send you
+    marketing communications (with your consent) via different channels, including but not limited to
+    SMS, Email, WhatsApp, and Voice.
+  </div>
+</q-card-section>
           <q-btn type="submit" label="Submit" color="primary" class="full-width" :loading="loading" />
         </q-form>
 
