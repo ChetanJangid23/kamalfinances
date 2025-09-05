@@ -7,7 +7,9 @@ const routes = [
       { path: 'about', name: 'about', component: () => import('pages/AboutPage.vue') },
       { path: 'services', name: 'services', component: () => import('pages/ServicesPage.vue') },
       { path: 'contact', name: 'contact', component: () => import('pages/ContactPage.vue') },
-      { path: 'career', name: 'career', component: () => import('pages/CareerPage.vue') }
+      { path: 'career', name: 'career', component: () => import('pages/CareerPage.vue') },
+      { path: 'privacy-policy', name: 'privacy-policy', component: () => import('pages/PrivacyPolicy.vue') },
+      { path: 'terms-and-conditions', name: 'terms-and-conditions', component: () => import('pages/TermsAndConditions.vue') }
     ]
   },
 
