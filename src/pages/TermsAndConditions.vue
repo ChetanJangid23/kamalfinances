@@ -34,6 +34,13 @@
       <p>
         We may update these Terms from time to time. Updated Terms will be posted here.
       </p>
+      <h3 class="text-subtitle1 text-primary q-mt-md">To Communicate with You</h3>
+      <p>
+        To Communicate with You: We may use your information to respond to your inquiries, provide
+        customer service support, send you important information about the services, and send you
+        marketing communications (with your consent) via different channels, including but not
+        limited to SMS, Email, WhatsApp, and Voice.
+      </p>
     </div>
   </div>
   <footer-section />
